@@ -3,6 +3,7 @@
 <p align="center">
   <a href="##introduction">Introduction</a> |  
   <a href="#models">Models </a> | 
+  <a href="#hyperparameter-tuning-andlearning-optimisation">Hyperparameter Tuning and Learning Optimization </a> |
   <a href="#performance-evaluation">Performance Evaluation</a> | 
 </p>
 
@@ -11,7 +12,7 @@
 
 This repository contains an analysis tool for forecasting the monthly industrial production of Electric and Gas Utilities in the United States. This sector is a significant contributor to fluctuations in national output over the course of the business cycle. By examining the industrial production (IP) index, which measures the real output of establishments located in the U.S. (excluding territories), we gain insights into structural developments within the economy. This forecasting project aims to leverage historical production data to predict future trends.
 
-For more detailed information, please refer to the explanatory notes issued by the Board of Governors.
+For more information, refer to the [explanatory notes issued by the Board of Governors](https://fred.stlouisfed.org/series/IPG2211A2N).
 
 ## Code Architecture
 
@@ -22,22 +23,41 @@ The project is organized into the following Jupyter notebooks, chosen for their 
 
 For the forecasting task, we opted to use **LSTM (Stacked LSTM)** and **CNN-LSTM** models, both of which are well-suited for time series prediction tasks.
 
+## Hyperparameter Tuning and Learning Optimization
+
+We opted to use Optuna with TimeSeriesSplit in order to find the best parameters for the Stacked LSTM model. Both models were trained using cross-validation, which showed good performance for both of them.
+
+
 ## Results
 
 Below are some of the results produced by the models:
 
-![Results](./media/lstm_optimal_curve.png)  
-![Results](./media/lstm_optimal_prediction.png)  
-![Results](./media/cnn_lstm_curve.png)  
-![Results](./media/cnn_lstm_prediction.png)  
+### Stacked LSTM - Metrics Curves and Predictions
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./media/lstm_optimal_curve.png" width="300" /></td>
+      <td><img src="./media/lstm_optimal_prediction.png" width="300" /></td>
+    </tr>
+  </table>
+</div>
+
+### CNN-LSTM Results - Metrics Curves and Predictions
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./media/cnn_lstm_curve.png" width="300" /></td>
+      <td><img src="./media/cnn_lstm_prediction.png" width="300" /></td>
+    </tr>
+  </table>
+</div>
 
 ### Model Performance Metrics
 
 | Metric   | Stacked LSTM | CNN-LSTM |
 |----------|--------------|----------|
-| MAE      | 3.17     | 5.21  |
-| RMSE     | 4.16      | 6.46  |
+  | MAE      | 4.36     |  3.95 |
+| RMSE     | 5.24     | 4.91  |
 
-## Database Management
-
-[Details about database management, if applicable, to be added here.]
