@@ -12,7 +12,7 @@
 
 This repository contains an analysis tool for forecasting the monthly industrial production of Electric and Gas Utilities in the United States. This sector is a significant contributor to fluctuations in national output over the course of the business cycle. By examining the industrial production (IP) index, which measures the real output of establishments located in the U.S. (excluding territories), we gain insights into structural developments within the economy. This forecasting project aims to leverage historical production data to predict future trends.
 
-For more detailed information, please refer to the explanatory notes issued by the Board of Governors.
+For more information, refer to the [explanatory notes issued by the Board of Governors](https://fred.stlouisfed.org/series/IPG2211A2N).
 
 ## Code Architecture
 
