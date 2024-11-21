@@ -26,8 +26,8 @@ For the forecasting task, we opted to use **LSTM (Stacked LSTM)** and **CNN-LSTM
 
 Below are some of the results produced by the models:
 
-![Results](./media/lstm_opt_curve.png)  
-![Results](./media/lstm_opt_prediction.png)  
+![Results](./media/lstm_optimal_curve.png)  
+![Results](./media/lstm_optimal_prediction.png)  
 ![Results](./media/cnn_lstm_curve.png)  
 ![Results](./media/cnn_lstm_prediction.png)  
 
