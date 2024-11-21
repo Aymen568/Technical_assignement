@@ -1,6 +1,11 @@
-# Technical Assignment
+# <p align="center" style="font-size: 60px;"><strong>Technical Assignment</strong> </p> 
 
-### [Introduction](#introduction) | [Models](#models) | [Performance Evaluation](#performance-evaluation)
+<p align="center">
+  <a href="##introduction">Introduction</a> |  
+  <a href="#models">Models </a> | 
+  <a href="#performance-evaluation">Performance Evaluation</a> | 
+</p># 
+
 
 ## Introduction
 
@@ -30,8 +35,8 @@ Below are some of the results produced by the models:
 
 | Metric   | Stacked LSTM | CNN-LSTM |
 |----------|--------------|----------|
-| MAE      | [value]      | [value]  |
-| RMSE     | [value]      | [value]  |
+| MAE      | [3.17]      | [5.21]  |
+| RMSE     | [4.16]      | [6.46]  |
 
 ## Database Management
 
