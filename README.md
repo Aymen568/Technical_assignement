@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="##introduction">Introduction</a> |  
-  <a href="#models">Models </a> | 
+  <a href="#notebook-descriptions">Notebook Descriptions </a> | 
   <a href="#hyperparameter-tuning-andlearning-optimisation">Hyperparameter Tuning and Learning Optimization </a> |
   <a href="#performance-evaluation">Performance Evaluation</a> | 
 </p>
@@ -14,7 +14,7 @@ This repository contains an analysis tool for forecasting the monthly industrial
 
 For more information, refer to the [explanatory notes issued by the Board of Governors](https://fred.stlouisfed.org/series/IPG2211A2N).
 
-## Code Architecture
+## Notebook Descriptions
 
 The project is organized into the following Jupyter notebooks, chosen for their ability to visualize and interpret results efficiently:
 
