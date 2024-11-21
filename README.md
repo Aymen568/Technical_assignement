@@ -25,7 +25,7 @@ For the forecasting task, we opted to use **LSTM (Stacked LSTM)** and **CNN-LSTM
 
 ## Hyperparameter Tuning and Learning Optimization
 
-We opted to use RandomizedSearchCV with TimeSeriesSplit in order to find the best parameters for the Stacked LSTM model. Both models were trained using cross-validation, which showed good performance for both of them.
+We opted to use Optuna with TimeSeriesSplit in order to find the best parameters for the Stacked LSTM model. Both models were trained using cross-validation, which showed good performance for both of them.
 
 
 ## Results
@@ -58,6 +58,6 @@ Below are some of the results produced by the models:
 
 | Metric   | Stacked LSTM | CNN-LSTM |
 |----------|--------------|----------|
-| MAE      | 3.17     | 5.21  |
-| RMSE     | 4.16      | 6.46  |
+  | MAE      | 4.36     |  3.95 |
+| RMSE     | 5.24     | 4.91  |
 
