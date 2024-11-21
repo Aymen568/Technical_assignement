@@ -4,7 +4,7 @@
   <a href="##introduction">Introduction</a> |  
   <a href="#models">Models </a> | 
   <a href="#performance-evaluation">Performance Evaluation</a> | 
-</p># 
+</p>
 
 
 ## Introduction
@@ -26,17 +26,17 @@ For the forecasting task, we opted to use **LSTM (Stacked LSTM)** and **CNN-LSTM
 
 Below are some of the results produced by the models:
 
-![Results](media/lstm_opt_curve.png)  
-![Results](media/lstm_opt_prediction.png)  
-![Results](media/cnn_lstm_curve.png)  
-![Results](media/cnn_lstm_prediction.png)  
+![Results](./media/lstm_opt_curve.png)  
+![Results](./media/lstm_opt_prediction.png)  
+![Results](./media/cnn_lstm_curve.png)  
+![Results](./media/cnn_lstm_prediction.png)  
 
 ### Model Performance Metrics
 
 | Metric   | Stacked LSTM | CNN-LSTM |
 |----------|--------------|----------|
-| MAE      | [3.17]      | [5.21]  |
-| RMSE     | [4.16]      | [6.46]  |
+| MAE      | 3.17     | 5.21  |
+| RMSE     | 4.16      | 6.46  |
 
 ## Database Management
 
