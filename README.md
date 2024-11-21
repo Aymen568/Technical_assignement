@@ -3,6 +3,7 @@
 <p align="center">
   <a href="##introduction">Introduction</a> |  
   <a href="#models">Models </a> | 
+  <a href="#hyperparameter-tuning-andlearning-optimisation">Hyperparameter Tuning and Learning Optimization </a> |
   <a href="#performance-evaluation">Performance Evaluation</a> | 
 </p>
 
@@ -21,6 +22,11 @@ The project is organized into the following Jupyter notebooks, chosen for their 
 - **model_selection.ipynb**: This notebook covers the model selection process, where models are trained, compared, and evaluated.
 
 For the forecasting task, we opted to use **LSTM (Stacked LSTM)** and **CNN-LSTM** models, both of which are well-suited for time series prediction tasks.
+
+## Hyperparameter Tuning and Learning Optimization
+
+We opted to use RandomizedSearchCV with TimeSeriesSplit in order to find the best parameters for the Stacked LSTM model. Both models were trained using cross-validation, which showed good performance for both of them.
+
 
 ## Results
 
@@ -55,6 +61,3 @@ Below are some of the results produced by the models:
 | MAE      | 3.17     | 5.21  |
 | RMSE     | 4.16      | 6.46  |
 
-## Database Management
-
-[Details about database management, if applicable, to be added here.]
