@@ -26,7 +26,7 @@ For the forecasting task, we opted to use **LSTM (Stacked LSTM)** and **CNN-LSTM
 
 Below are some of the results produced by the models:
 
-### Stacked LSTM - Prediction Curves (Side by Side)
+### Stacked LSTM - Metrics Curves and Predictions
 
 <div align="center">
   <table>
@@ -37,7 +37,7 @@ Below are some of the results produced by the models:
   </table>
 </div>
 
-### CNN-LSTM - Other Curves (Side by Side)
+### CNN-LSTM Results - Metrics Curves and Predictions
 
 <div align="center">
   <table>
