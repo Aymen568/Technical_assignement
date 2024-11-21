@@ -61,3 +61,4 @@ Below are some of the results produced by the models:
   | MAE      | 4.36     |  3.95 |
 | RMSE     | 5.24     | 4.91  |
 
+While both models demonstrate promising results, the CNN-LSTM exhibits smoother performance and lower error metrics compared to the stacked LSTM, making it the preferred choice for deployment.
