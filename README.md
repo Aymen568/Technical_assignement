@@ -61,5 +61,5 @@ Below are some of the results produced by the models:
   | MAE      | 4.36     |  3.95 |
 | RMSE     | 5.24     | 4.91  |
 
-The evaluation table showcases the performance of each model, with the Stacked LSTM model demonstrating a strong balance between training and generalization capabilities, making it our chosen model for real-time forecasting
+The evaluation table showcases the performance of each model, with the CNN-LSTM model demonstrating a strong balance between training and generalization capabilities, making it our chosen model for real-time forecasting
 
